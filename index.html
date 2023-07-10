@@ -13,7 +13,7 @@
         <div class="wrapper">
             <div class="inputbox">
                 <input type="text" disabled><span class="material-symbols-rounded">copy_all</span>
-            <div class="pass-indicator">
+            <div class="pass-indicator"></div>
                 <div class="pass-length">
                     <div class="details">
                         <label class="title">Password length</label>
@@ -25,18 +25,43 @@
                     <label class="title">Password Settings</label>
                     <ul class="options">
                         <li class="option">
-                            <input type="checkbox" id="lowercase" checked></li>
+                            <input type="checkbox" id="lowercase" checked>
+                            <label for="lowercase">Lowercase a to z</label>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="uppercase" unchecked>
+                            <label for="lowercase">Uppercase A to Z</label>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="numbers" unchecked>
+                            <label for="numbers">Numbers 1 to 9</label>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="symbols" unchecked>
+                            <label for="symbols">Symbols ! to +</label>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="exc-duplicate" unchecked>
+                            <label for="exc-duplicate">Exclude duplicate</label>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="spaces" unchecked>
+                            <label for="spaces">Include spaces</label>
+                            absolute                   </li>
                     </ul>
                 </div>
-            </div>
-            </div>    
+                </div>
+            
+            
+            <button class="generate-btn">Generate</button>
+            
         </div>
-
-
-
-
     </div>
 
+
+
+
     <link rel="stylesheet" href="script.js">
+    <script src="script.js"></script>
 </body>
 </html>
