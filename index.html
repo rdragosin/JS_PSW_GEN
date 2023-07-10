@@ -8,8 +8,34 @@
     <title>Password generator</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Password generator</h2>
+        <div class="wrapper">
+            <div class="inputbox">
+                <input type="text" disabled><span class="material-symbols-rounded">copy_all</span>
+            <div class="pass-indicator">
+                <div class="pass-length">
+                    <div class="details">
+                        <label class="title">Password length</label>
+                        <span></span>
+                    </div>
+                    <input type="range" min="1" max="30" value="15" step="1">
+                </div>
+                <div class="pass-settings">
+                    <label class="title">Password Settings</label>
+                    <ul class="options">
+                        <li class="option">
+                            <input type="checkbox" id="lowercase" checked></li>
+                    </ul>
+                </div>
+            </div>
+            </div>    
+        </div>
 
+
+
+
+    </div>
 
     <link rel="stylesheet" href="script.js">
 </body>
